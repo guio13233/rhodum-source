@@ -1,0 +1,19 @@
+.raritycorner {
+  width: 0; 
+  height: 0; 
+  border-top: 150px solid #ffcc00;
+  border-bottom: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.raritycorner span {
+  position:absolute;
+  top: 35px;
+  width: 100px;
+  left: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial;
+  transform: rotate(-45deg);
+  display:block;
+}
