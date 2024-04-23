@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 22, 2024 at 03:41 PM
+-- Generation Time: Apr 23, 2024 at 02:46 PM
 -- Server version: 8.2.0
 -- PHP Version: 8.2.13
 
@@ -572,6 +572,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `banreason` varchar(512) DEFAULT NULL,
   `bantime` timestamp NULL DEFAULT NULL,
   `username` varchar(21) DEFAULT NULL,
+  `email` varchar(128) DEFAULT NULL,
   `gameKey` varchar(128) DEFAULT NULL,
   `passwordChangeDate` timestamp NULL DEFAULT NULL,
   `about` varchar(256) DEFAULT NULL,
